@@ -1,4 +1,4 @@
-# Penbyt - Powered by HeproAI IT Solutions
+# Penbyte - Powered by HeproAI IT Solutions
 
 ## [See a parent company site](https://heproai.com)
 
