@@ -13,4 +13,4 @@
 
 💙 Join the open source project to see more projects like this. [HeproAI | Open Source](https://opensource.heproai.com)
 
-![Screenshot (23)](https://github.com/heproai/Penbyt/assets/133759869/bd2d57d4-2e02-4f42-b2ef-76e9937fc9d2)
+![Screenshot (29)](https://github.com/heproai/Penbyte/assets/133759869/c2f1030e-f549-4e56-84f1-8f4fd1b3f38f)
