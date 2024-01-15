@@ -57,18 +57,9 @@
                 </div>
             </div>
 
-            <div class="navbar-right">
-                <ul class="navbar-right__menu">
-                    <button class="btn btn-secondary btn-default btn-rounded "><a href="https://imjo.in/HrEswm"
-                            target="_blank" style="color: #fff;">Donate</a>
-                    </button>
-                </ul>
-
-                <div class="navbar-right__mobileAction d-md-none">
-                    <a href="#" class="btn-author-action">
-                        <img class="svg" src="img/svg/more-vertical.svg" alt="more-vertical"></a>
-                </div>
-            </div>
+            <button class="btn btn-primary btn-default btn-rounded "><span>₹</span><a href="https://imjo.in/kF7cMF"
+                target="_blank" style="color: #fff;">Donate</a>
+        </button>
 
         </nav>
     </header>
@@ -84,6 +75,7 @@
                                 <span class="menu-text">Home</span>
                             </a>
                         </li>
+                        
                         <li class="has-child">
                             <a href="#" class>
                                 <span class="nav-icon uil uil-book-open"></span>
@@ -121,43 +113,29 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="team.html" class>
-                                <span class="nav-icon uil uil-users-alt"></span>
-                                <span class="menu-text">Team</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="about.html" class>
-                                <span class="nav-icon uil uil-bookmark"></span>
-                                <span class="menu-text">About</span>
-                            </a>
-                        </li>
-
-                        <li class="menu-title mt-30">
-                            <span>MORE INFO</span>
-                        </li>
-
-
-                        <li>
                             <a href="Courses.html" class>
                                 <span class="nav-icon uil uil-books"></span>
                                 <span class="menu-text">Courses</span>
                             </a>
                         </li>
-
-
-
+                        <li>
+                            <a href="team.html" class>
+                                <span class="nav-icon uil uil-users-alt"></span>
+                                <span class="menu-text">Our Team</span>
+                            </a>
+                        </li>
                         <li class>
                             <a href="support.html">
                                 <span class="nav-icon uil uil-headphones"></span>
                                 <span class="menu-text">Support Center</span>
                             </a>
                         </li>
+                        
                         <li>
                             <a href="changelog.html" class>
                                 <span class="nav-icon uil uil-arrow-growth"></span>
                                 <span class="menu-text">Changelog</span>
-                                <span class="badge badge-info-10 menuItem rounded-pill">1.8.05</span>
+                                <span class="badge badge-info-10 menuItem rounded-pill">1.14.9</span>
                             </a>
                         </li>
                         <li class>
@@ -170,6 +148,12 @@
                             <a href="tc.html">
                                 <span class="nav-icon uil uil-question-circle"></span>
                                 <span class="menu-text">Terms & Conditions</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html" class>
+                                <span class="nav-icon uil uil-bookmark"></span>
+                                <span class="menu-text">About</span>
                             </a>
                         </li>
                         <!-- <li class>
@@ -190,21 +174,7 @@
                 <div class="container-fluid">
                     <div class="row ">
 
-                        <!-- Content Alert -->
-                        <div class="card-body">
-                            <div class=" alert alert-warning  alert-dismissible fade show "
-                                role="alert">
-                                <div class="alert-content">
-                                    <h6 class="alert-heading">Warning</h6>
-                                    <p style="font-style: italic; font-weight: 500;">The study material on this website is collected from students and faculty members of IIIT RK VALLEY.  This is our small effort to meet the shortage of study material for students.<a href="tc.html" style="color: blue; font-style: normal; text-decoration: underline; padding-left: 5px;">Read our terms & conditions</a></p>
-                                    <button type="button" class="btn-close text-capitalize"
-                                        data-bs-dismiss="alert" aria-label="Close">
-                                        <img src="img/svg/x.svg" alt="x" class="svg" aria-hidden="true">
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Content Alert End-->
+                        
 
                         <div class="col-lg-12">
                             <div class="breadcrumb-main">
@@ -1216,7 +1186,7 @@
 
         linkElements.forEach((linkElement, index) => {
             if (linkElement.getAttribute('href') === '#') {
-                statusElements[index].textContent = 'Not Available';
+                statusElements[index].textContent = 'Unavailable';
                 statusElements[index].style.color = 'red';
             } else if (linkElement.getAttribute('href').startsWith('https')) {
                 statusElements[index].textContent = 'Available';
